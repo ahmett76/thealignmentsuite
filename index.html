@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Align Suite | Premium AI Alignment Domains</title>
-  <meta name="description" content="AlignCortex • AlignNeural • AlignOmni • AlignFold — Premium domain suite for AI Alignment, cognitive systems and aligned intelligence.">
+  <meta name="description" content="AlignCortex • AlignNeural • AlignOmni • AlignFold • AlignANI • AlignGenesis • AlignHyper • AlignSynapse — Premium domain suite for AI Alignment.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,20 +49,19 @@
     .container {
       position: relative;
       z-index: 1;
-      max-width: 1120px;
+      max-width: 1200px;
       margin: 0 auto;
       padding: 0 24px;
     }
 
-    /* HERO */
     .hero {
-      min-height: 88vh;
+      min-height: 80vh;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       text-align: center;
-      padding: 80px 20px 60px;
+      padding: 80px 20px 50px;
     }
 
     .badge {
@@ -81,7 +80,7 @@
 
     h1 {
       font-family: 'Orbitron', sans-serif;
-      font-size: clamp(2.4rem, 6.5vw, 3.9rem);
+      font-size: clamp(2.3rem, 6vw, 3.8rem);
       font-weight: 700;
       letter-spacing: -1px;
       margin-bottom: 18px;
@@ -96,10 +95,10 @@
     }
 
     .tagline {
-      font-size: clamp(1.05rem, 2.2vw, 1.25rem);
+      font-size: clamp(1rem, 2.1vw, 1.2rem);
       color: var(--muted);
-      max-width: 680px;
-      margin: 0 auto 40px;
+      max-width: 720px;
+      margin: 0 auto 36px;
     }
 
     .tagline strong { color: var(--text); font-weight: 500; }
@@ -115,7 +114,7 @@
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      padding: 15px 28px;
+      padding: 14px 26px;
       border-radius: 12px;
       font-weight: 600;
       font-size: 0.95rem;
@@ -148,41 +147,39 @@
     }
 
     .btn-sm {
-      padding: 11px 18px;
-      font-size: 0.86rem;
+      padding: 10px 16px;
+      font-size: 0.84rem;
       border-radius: 10px;
     }
 
-    /* SECTIONS */
-    section { padding: 90px 0; }
+    section { padding: 80px 0; }
 
     .section-title {
       font-family: 'Orbitron', sans-serif;
-      font-size: 1.65rem;
+      font-size: 1.55rem;
       text-align: center;
-      margin-bottom: 12px;
+      margin-bottom: 10px;
     }
 
     .section-sub {
       text-align: center;
       color: var(--muted);
       max-width: 640px;
-      margin: 0 auto 52px;
-      font-size: 1.05rem;
+      margin: 0 auto 48px;
+      font-size: 1.02rem;
     }
 
-    /* DOMAIN CARDS */
     .domains {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 28px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
     }
 
     .domain-card {
       background: var(--card);
       border: 1px solid var(--border);
-      border-radius: 22px;
-      padding: 28px 24px 32px;
+      border-radius: 20px;
+      padding: 24px 20px 28px;
       transition: all 0.3s ease;
       display: flex;
       flex-direction: column;
@@ -191,65 +188,65 @@
 
     .domain-card:hover {
       border-color: rgba(0, 229, 199, 0.45);
-      transform: translateY(-6px);
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+      transform: translateY(-5px);
+      box-shadow: 0 18px 36px rgba(0, 0, 0, 0.4);
     }
 
     .domain-logo {
       width: 100%;
-      max-width: 220px;
+      max-width: 200px;
       height: auto;
-      margin: 0 auto 20px;
+      margin: 0 auto 16px;
       border-radius: 12px;
     }
 
     .domain-number {
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 600;
       color: var(--turquoise);
       letter-spacing: 1px;
-      margin-bottom: 12px;
+      margin-bottom: 10px;
     }
 
     .domain-name {
       font-family: 'Orbitron', sans-serif;
-      font-size: 1.25rem;
-      margin-bottom: 8px;
+      font-size: 1.15rem;
+      margin-bottom: 6px;
     }
 
     .domain-name span { color: var(--turquoise); }
 
     .domain-tagline {
       color: #a5b4fc;
-      font-size: 0.92rem;
+      font-size: 0.88rem;
       font-weight: 500;
-      margin-bottom: 14px;
-      min-height: 44px;
+      margin-bottom: 12px;
+      min-height: 40px;
     }
 
     .domain-desc {
       color: var(--muted);
-      font-size: 0.93rem;
+      font-size: 0.9rem;
       flex-grow: 1;
-      margin-bottom: 22px;
+      margin-bottom: 18px;
     }
 
     .price {
-      font-size: 1.35rem;
+      font-size: 1.2rem;
       font-weight: 700;
       color: var(--text);
-      margin-bottom: 16px;
+      margin-bottom: 14px;
     }
 
     .price span {
-      font-size: 0.82rem;
+      font-size: 0.8rem;
       color: var(--muted);
       font-weight: 400;
     }
 
     .card-buttons {
       display: flex;
-      gap: 10px;
+      gap: 8px;
       flex-wrap: wrap;
       justify-content: center;
     }
@@ -269,64 +266,35 @@
       filter: brightness(1.08);
     }
 
-    /* ADVANTAGE */
-    .advantage-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 24px;
-      margin-top: 20px;
-    }
-
-    .adv-card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 28px 22px;
-      text-align: center;
-    }
-
-    .adv-card h3 {
-      font-size: 1.05rem;
-      margin-bottom: 10px;
-      color: var(--turquoise);
-    }
-
-    .adv-card p {
-      color: var(--muted);
-      font-size: 0.92rem;
-    }
-
-    /* CTA BOX */
     .cta-box {
       background: linear-gradient(135deg, rgba(0, 229, 199, 0.08), rgba(59, 130, 246, 0.08));
       border: 1px solid rgba(0, 229, 199, 0.25);
-      border-radius: 24px;
-      padding: 48px 32px;
+      border-radius: 22px;
+      padding: 44px 28px;
       text-align: center;
-      margin-top: 20px;
     }
 
     .cta-box h2 {
       font-family: 'Orbitron', sans-serif;
-      font-size: 1.7rem;
-      margin-bottom: 14px;
+      font-size: 1.55rem;
+      margin-bottom: 12px;
     }
 
     .cta-box p {
       color: var(--muted);
-      max-width: 520px;
-      margin: 0 auto 28px;
+      max-width: 560px;
+      margin: 0 auto 26px;
     }
 
     footer {
       text-align: center;
-      padding: 40px 20px 60px;
+      padding: 36px 20px 50px;
       color: var(--muted);
       font-size: 0.88rem;
     }
 
     @media (max-width: 640px) {
-      .domain-card { padding: 24px 20px; }
+      .domain-card { padding: 22px 18px; }
       .card-buttons { flex-direction: column; }
       .btn-sm { width: 100%; justify-content: center; }
     }
@@ -334,14 +302,13 @@
 </head>
 <body>
 
-  <!-- HERO -->
   <section class="hero">
     <div class="container">
       <div class="badge">Premium Domain Portfolio</div>
       <h1>The <span class="accent">Align</span> Suite</h1>
       <p class="tagline">
-        Four domains. One architecture for aligned intelligence.<br>
-        <strong>AlignCortex</strong> thinks. <strong>AlignNeural</strong> engineers. <strong>AlignOmni</strong> unifies. <strong>AlignFold</strong> forms.
+        Eight domains. One architecture for aligned intelligence.<br>
+        <strong>Cortex</strong> • <strong>Neural</strong> • <strong>Omni</strong> • <strong>Fold</strong> • <strong>ANI</strong> • <strong>Genesis</strong> • <strong>Hyper</strong> • <strong>Synapse</strong>
       </p>
       <div class="hero-cta">
         <a href="#domains" class="btn btn-primary">View Domains</a>
@@ -350,23 +317,20 @@
     </div>
   </section>
 
-  <!-- DOMAINS -->
   <section id="domains">
     <div class="container">
-      <h2 class="section-title">Four Domains. One Vision.</h2>
-      <p class="section-sub">Each name targets a critical layer of aligned intelligence systems.</p>
+      <h2 class="section-title">Eight Domains. One Vision.</h2>
+      <p class="section-sub">A complete Align-branded ecosystem for cognitive, neural and aligned intelligence systems.</p>
 
       <div class="domains">
 
-        <!-- CORTEX -->
+        <!-- 01 Cortex -->
         <div class="domain-card">
           <img src="aligncortex.png" alt="AlignCortex" class="domain-logo" onerror="this.style.display='none'">
           <div class="domain-number">01</div>
           <div class="domain-name">align<span>cortex</span>.com</div>
           <div class="domain-tagline">Aligning Intelligence at the Cognitive Layer</div>
-          <p class="domain-desc">
-            Perfect for cognitive architectures, brain-inspired AI and high-level alignment systems.
-          </p>
+          <p class="domain-desc">Perfect for cognitive architectures, brain-inspired AI and high-level alignment systems.</p>
           <div class="price">Inquire <span>/ BIN</span></div>
           <div class="card-buttons">
             <a href="https://sedo.com/search/?keyword=aligncortex.com" target="_blank" class="btn btn-sm btn-sedo">Buy on Sedo</a>
@@ -374,15 +338,13 @@
           </div>
         </div>
 
-        <!-- NEURAL -->
+        <!-- 02 Neural -->
         <div class="domain-card">
           <img src="alignneural.png" alt="AlignNeural" class="domain-logo" onerror="this.style.display='none'">
           <div class="domain-number">02</div>
           <div class="domain-name">align<span>neural</span>.com</div>
           <div class="domain-tagline">Engineering Aligned Intelligence</div>
-          <p class="domain-desc">
-            Ideal for neural alignment research, safety layers and engineered intelligence platforms.
-          </p>
+          <p class="domain-desc">Ideal for neural alignment research, safety layers and engineered intelligence platforms.</p>
           <div class="price">Inquire <span>/ BIN</span></div>
           <div class="card-buttons">
             <a href="https://sedo.com/search/?keyword=alignneural.com" target="_blank" class="btn btn-sm btn-sedo">Buy on Sedo</a>
@@ -390,15 +352,13 @@
           </div>
         </div>
 
-        <!-- OMNI -->
+        <!-- 03 Omni -->
         <div class="domain-card">
           <img src="alignomni.png" alt="AlignOmni" class="domain-logo" onerror="this.style.display='none'">
           <div class="domain-number">03</div>
           <div class="domain-name">align<span>omni</span>.com</div>
           <div class="domain-tagline">Intelligence, Aligned Across Dimensions</div>
-          <p class="domain-desc">
-            Built for multi-dimensional, omnichannel and full-spectrum alignment systems.
-          </p>
+          <p class="domain-desc">Built for multi-dimensional, omnichannel and full-spectrum alignment systems.</p>
           <div class="price">Inquire <span>/ BIN</span></div>
           <div class="card-buttons">
             <a href="https://sedo.com/search/?keyword=alignomni.com" target="_blank" class="btn btn-sm btn-sedo">Buy on Sedo</a>
@@ -406,15 +366,13 @@
           </div>
         </div>
 
-        <!-- FOLD -->
+        <!-- 04 Fold -->
         <div class="domain-card">
           <img src="alignfold.png" alt="AlignFold" class="domain-logo" onerror="this.style.display='none'">
           <div class="domain-number">04</div>
           <div class="domain-name">align<span>fold</span>.com</div>
           <div class="domain-tagline">Where Complexity Takes Form</div>
-          <p class="domain-desc">
-            Designed for molecular intelligence, protein folding alignment and complex system formation.
-          </p>
+          <p class="domain-desc">Designed for molecular intelligence, protein folding alignment and complex system formation.</p>
           <div class="price">Inquire <span>/ BIN</span></div>
           <div class="card-buttons">
             <a href="https://sedo.com/search/?keyword=alignfold.com" target="_blank" class="btn btn-sm btn-sedo">Buy on Sedo</a>
@@ -422,51 +380,79 @@
           </div>
         </div>
 
+        <!-- 05 ANI -->
+        <div class="domain-card">
+          <img src="alignani.png" alt="AlignANI" class="domain-logo" onerror="this.style.display='none'">
+          <div class="domain-number">05</div>
+          <div class="domain-name">align<span>ani</span>.com</div>
+          <div class="domain-tagline">Grounding Intelligence at the Narrow Frontier</div>
+          <p class="domain-desc">Focused systems for Artificial Narrow Intelligence and specialized alignment.</p>
+          <div class="price">Inquire <span>/ BIN</span></div>
+          <div class="card-buttons">
+            <a href="https://sedo.com/search/?keyword=alignani.com" target="_blank" class="btn btn-sm btn-sedo">Buy on Sedo</a>
+            <a href="https://www.afternic.com/domain/alignani.com" target="_blank" class="btn btn-sm btn-afternic">Buy on Afternic</a>
+          </div>
+        </div>
+
+        <!-- 06 Genesis -->
+        <div class="domain-card">
+          <img src="aligngenesis.png" alt="AlignGenesis" class="domain-logo" onerror="this.style.display='none'">
+          <div class="domain-number">06</div>
+          <div class="domain-name">align<span>genesis</span>.com</div>
+          <div class="domain-tagline">Where Intelligence Begins</div>
+          <p class="domain-desc">Foundational and genesis-level architectures for aligned intelligence.</p>
+          <div class="price">Inquire <span>/ BIN</span></div>
+          <div class="card-buttons">
+            <a href="https://sedo.com" target="_blank" class="btn btn-sm btn-sedo">Buy on Sedo</a>
+            <a href="https://www.afternic.com/domain/aligngenesis.com" target="_blank" class="btn btn-sm btn-afternic">Buy on Afternic</a>
+          </div>
+        </div>
+
+        <!-- 07 Hyper -->
+        <div class="domain-card">
+          <img src="alignhyper.png" alt="AlignHyper" class="domain-logo" onerror="this.style.display='none'">
+          <div class="domain-number">07</div>
+          <div class="domain-name">align<span>hyper</span>.com</div>
+          <div class="domain-tagline">Supercharging Aligned Intelligence</div>
+          <p class="domain-desc">High-performance and hyperscale alignment systems.</p>
+          <div class="price">Inquire <span>/ BIN</span></div>
+          <div class="card-buttons">
+            <a href="https://sedo.com/search/?keyword=alignhyper.com" target="_blank" class="btn btn-sm btn-sedo">Buy on Sedo</a>
+            <a href="https://www.afternic.com/domain/alignhyper.com" target="_blank" class="btn btn-sm btn-afternic">Buy on Afternic</a>
+          </div>
+        </div>
+
+        <!-- 08 Synapse -->
+        <div class="domain-card">
+          <img src="alignsynapse.png" alt="AlignSynapse" class="domain-logo" onerror="this.style.display='none'">
+          <div class="domain-number">08</div>
+          <div class="domain-name">align<span>synapse</span>.com</div>
+          <div class="domain-tagline">Precision Alignment at the Synaptic Junction</div>
+          <p class="domain-desc">Synaptic-level precision and neural connection systems.</p>
+          <div class="price">Inquire <span>/ BIN</span></div>
+          <div class="card-buttons">
+            <a href="https://sedo.com/search/?keyword=alignsynapse.com" target="_blank" class="btn btn-sm btn-sedo">Buy on Sedo</a>
+            <a href="https://www.afternic.com/domain/alignsynapse.com" target="_blank" class="btn btn-sm btn-afternic">Buy on Afternic</a>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
 
-  <!-- ADVANTAGE -->
-  <section>
-    <div class="container">
-      <h2 class="section-title">Why This Suite?</h2>
-      <p class="section-sub">A cohesive Align-branded portfolio ready for the AI safety and alignment era.</p>
-
-      <div class="advantage-grid">
-        <div class="adv-card">
-          <h3>Cognitive Layer</h3>
-          <p>AlignCortex targets the highest level of intelligence architecture.</p>
-        </div>
-        <div class="adv-card">
-          <h3>Neural Engineering</h3>
-          <p>AlignNeural speaks directly to safety and engineered alignment.</p>
-        </div>
-        <div class="adv-card">
-          <h3>Full Spectrum</h3>
-          <p>AlignOmni covers alignment across every dimension.</p>
-        </div>
-        <div class="adv-card">
-          <h3>Complex Systems</h3>
-          <p>AlignFold owns the molecular and structural intelligence narrative.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PACKAGE CTA -->
   <section id="package">
     <div class="container">
       <div class="cta-box">
-        <h2>Own the Complete Suite</h2>
+        <h2>Own the Complete Align Suite</h2>
         <p>
-          Acquire all four domains together and secure a powerful Align-branded ecosystem 
-          for cognitive, neural, omni and molecular intelligence.
+          Eight premium domains forming a cohesive AI Alignment ecosystem — 
+          from cognitive architectures to synaptic precision.
         </p>
         <div class="hero-cta">
           <a href="https://sedo.com/search/?keyword=aligncortex.com" target="_blank" class="btn btn-primary">Inquire on Sedo</a>
           <a href="https://www.afternic.com/domain/aligncortex.com" target="_blank" class="btn btn-outline">Inquire on Afternic</a>
         </div>
-        <p style="margin-top:22px; font-size:0.95rem; color:var(--turquoise);">
+        <p style="margin-top:20px; font-size:0.95rem; color:var(--turquoise);">
           Package inquiries welcome
         </p>
       </div>
